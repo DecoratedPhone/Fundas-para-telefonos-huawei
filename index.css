@@ -93,6 +93,41 @@
 		font-size: 25px; font-weight:500; position: relative; left: 1.9em; top: -35px;
 	}
 
+	.div-grid::before{
+        font-size: 24px;
+        color: white;
+        content: "Ver";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to right, #10d3ff9e, #06699973);
+        transform: scale(0) ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 11px;
+        z-index: 2;
+       }
+
+
+	.grid-1::before{
+       		content: 'Huawey Y30 Q45';
+       		align-items: center;
+            justify-content: center;
+       }
+.grid-2::before{
+       		content: 'Huawey Y19 Q45';
+       		align-items: center;
+            justify-content: center;
+       }
+
+       .div-grid:hover::before{
+        transform: scale(1);
+        transition: transform .56s;
+       } 
+
 
 		.D-2{
 			margin: auto;
