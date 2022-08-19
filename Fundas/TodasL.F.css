@@ -1,0 +1,909 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Neonderthaw&family=Quicksand:wght@300&family=Roboto&family=Square+Peg&display=swap');
+
+		::-webkit-scrollbar{
+		width: 4.5px;
+
+	} 
+
+	::-webkit-scrollbar-track {
+		background: linear-gradient(180deg, #c5c3c35c, #c5c3c39c);
+		border-radius: 3em;
+	}
+
+	::-webkit-scrollbar-thumb{
+		background: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59);
+		border-radius: 5em;
+	}
+
+		
+		body{
+			font-family: 'Quicksand', sans-serif;
+			background: blue;
+			background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); background:linear-gradient(130deg, #ff0000, #ff00ec, #8500ff, #1000ff, #00d0ff, #00ffbd, #56ff00, #ffeb00, #efff00, #ff5e00);
+			color: white;
+		}
+
+
+		.Samsung-name{
+			margin:auto; font-size:150px; font-family: 'Roboo', sans-serif;
+		}
+
+		a{
+		text-decoration: none;
+		color: whitesmoke;
+
+	}
+
+	a:hover{
+		text-decoration: underline;
+	}
+	
+.div-grid::before{
+        font-size: 24px;
+        color: white;
+        content: "Ver";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to right, #10d3ff9e, #06699973);
+        transform: scale(0) ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 11px;
+        z-index: 2;
+       }
+
+       .grid-1::before{
+       		content: 'Realme C11 Q45';
+       }
+
+       .grid-2::before{
+       		content: 'Muestra Q45';
+       }
+       
+
+       .grid-3::before{
+       		content: 'Huawey Y30 Q45';
+       		align-items: center;
+            justify-content: center;
+       }
+       
+
+       .grid-4::before{
+       		content: 'Muestra Q45;';
+       }
+       
+
+       .grid-5::before{
+       		content: 'IPhone 13 Q45';
+       }
+       
+
+       .grid-6::before{
+       		content: 'Muestra Q45';
+       }
+       
+
+       .grid-7::before{
+       		content: 'Samsung Galaxy A51 Q45';
+       }
+
+
+       .grid-8::before{
+       		content: 'Huawey Y19 Q45';
+       		align-items: center;
+            justify-content: center;
+       }
+       
+
+       .grid-9::before{
+       		content: 'IPhone XR Q45.';
+       }
+       
+
+       .grid-10::before{
+       		content: 'IPhone 10 Q45';
+       }
+       
+
+       .grid-11::before{
+       		content: 'Muestra Q45';
+       }
+
+       .grid-12::before{
+       		content: 'Samsung Galaxy S21 Ultra Q45';
+       }
+
+       .grid-13::before{
+       		content: 'Honor X8 Q45';
+       }
+       
+
+       
+
+		.div-grid:hover::before{
+        transform: scale(1);
+        transition: transform .56s;
+       } 
+
+		
+
+	.menu{
+		display: flex;
+		width: 100%;
+		height: 135px;
+		justify-content: space-between;
+		/*background: #000000b8;*/
+		background: transparent;
+	}
+
+
+	.a-menu{
+		font-size: 20px;
+		margin: auto;
+	}
+
+	.img-grid{
+		width: 100px;
+	}
+
+
+		.img-grid2{
+			width:130px; position: relative; left: 13%; top: 2%; margin-bottom: 30px;
+	}
+
+
+
+	.img-grid3{
+		width: 130px; position: relative; left: 14.5%; top: 7px; margin-bottom: 35px;
+	}
+
+	.img-grid1 {
+    width: 405px;
+    position: relative;
+    left: -68%;
+    top: -42px;
+    margin-bottom: -15px;
+}
+		
+
+	.img-grid4{
+		width: 460px; position: relative; left: -85%; top: -65px; margin-bottom: -40px; transform: rotate(1.5deg);
+	}
+
+	.img-grid5{
+		width: 640px; position: relative; left: -127.5%; top: -120px; margin-bottom: -170px;
+	}
+
+
+	.img-grid-6{
+		width: 135px;
+		position: relative; left: 13%; top: 8px; margin-bottom: 30px;
+	}
+
+	.img-grid-7{
+		width: 430px;
+		position: relative; left: -87%; top: -40px; margin-bottom: -50px; transform: rotate(1.5deg);
+	}
+
+	.img-grid-8{
+		width: 460px;
+		position: relative; left: -70%; top: -47px; margin-bottom: -35px; transform: rotate(3.5deg);
+
+	}
+
+	.img-grid-9{
+		width: 450px;
+		position: relative; left: -78%; top: -57px; margin-bottom: -45px; transform: rotate(5deg);
+
+	}
+
+	.img-grid-10{
+		width: 450px;
+		position: relative; left: -76%; top: -75px; margin-bottom: -45px; transform: rotate(2.7deg);
+
+	}
+
+	.img-grid-11{
+		width: 450px;
+		position: relative; left: -89%; top: -63px; margin-bottom: -45px; transform: rotate(2.7deg);
+
+	}
+
+	.img-grid-12{
+		width: 480px;
+		position: relative; left: -106%; top: -65px; margin-bottom: -45px; transform: rotate(4.6deg);
+
+	}
+
+	.img-grid-13{
+		width: 120px;
+		position: relative; left: 16%; top: 8px; margin-bottom: -45px; transform: rotate(0deg);
+
+	}
+
+
+
+
+	.grid-text{
+			font-size: 25px; font-weight:1000; position: relative; left: 1.3em; top: -35px;
+	}
+
+	.grid-text-xiaomi{
+		font-size: 25px; font-weight:1000; position: relative; left: .9em; top: -35px;
+	}
+
+
+		.D-2{
+			margin: auto;
+			max-width: 90%;
+			height: 1200px;
+			display: grid;
+			grid-template-areas: 
+			". . text text text . ."
+			"p img1 img2 img3 img4 img5 h"
+			"p img1 img2 img3 img4 img5 h"
+			"p img1 img2 img3 img4 img5 h"
+			"n n text2 text2 text2 y y"
+			"m img6 img7 img8 img9 img10 j"
+			"m img6 img7 img8 img9 img10 j"
+			"m img6 img7 img8 img9 img10 j"
+			"m  d img11 img12 img13 k j"
+			;
+			gap: 1px, 10px;
+			overflow: hidden;
+
+
+		}
+
+		.div-grid{
+			background: #32e11c;
+			margin: auto;
+			height:280px; 
+			width: 175px;
+			border-radius: 9px;
+	        box-shadow: 0px 1px 3.55555px black;
+	        background: transparent;
+	        position: relative;
+	        transition: transform 0.53;
+		}
+
+
+
+
+				.grid-1{
+			grid-area: img1;
+		}
+
+		.grid-2{
+			grid-area: img2;
+		}
+
+		.grid-3{
+			grid-area: img3;
+		}
+
+		.grid-4{
+			grid-area: img4;
+		}
+
+		.grid-5{
+			grid-area: img5;
+		}
+
+		.grid-6{
+			grid-area: img6;
+		}
+
+		.grid-7{
+			grid-area: img7;
+		}
+
+		.grid-8{
+			grid-area: img8;
+		}
+
+		.grid-9{
+			grid-area: img9;
+		}
+
+		.grid-10{
+			grid-area: img10;
+		}
+
+		.grid-11{
+			grid-area: img11;
+		}
+
+		.grid-12{
+			grid-area: img12;
+		}
+		.grid-13{
+			grid-area: img13;
+		}
+
+		.hamburger-icon{
+		display: none;
+	}
+
+
+		@media (max-width: 900px){
+
+		.hamburger-icon{
+			display: block;
+		}
+
+
+	.menu{
+		display: none;
+	}
+
+}
+
+		@media(max-width: 1029px){
+
+	h1{
+		font-size: 40px;
+	}
+
+	.Samsung-name{
+		font-size: 130px;
+	}
+
+	.div-grid{
+			background: #32e11c;
+			margin: auto;
+			height:250px; 
+			width: 175px;
+			border-radius: 9px;
+	        box-shadow: 0px 1px 3.55555px black;
+	        background: transparent;
+	        display: grid;
+	        overflow: hidden;
+		}
+
+			
+.div-grid::before{
+        font-size: 24px;
+        color: white;
+        content: "Ver";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to right, #10d3ff9e, #06699973);
+        transform: scale(0) ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 11px;
+        z-index: 2;
+       }
+
+       .grid-1::before{
+       		content: 'Realme C11 Q45';
+       }
+
+       .grid-2::before{
+       		content: 'Muestra Q45';
+       }
+       
+
+       .grid-3::before{
+       		content: 'Huawey Y30 Q45';
+       		align-items: center;
+            justify-content: center;
+       }
+       
+
+       .grid-4::before{
+       		content: 'Muestra Q45;';
+       }
+       
+
+       .grid-5::before{
+       		content: 'IPhone 13 Q45';
+       }
+       
+
+       .grid-6::before{
+       		content: 'Muestra Q45';
+       }
+       
+
+       .grid-7::before{
+       		content: 'Samsung Galaxy A51 Q45';
+       }
+
+
+       .grid-8::before{
+       		content: 'Huawey Y19 Q45';
+       		align-items: center;
+            justify-content: center;
+       }
+       
+
+       .grid-9::before{
+       		content: 'IPhone XR Q45.';
+       }
+       
+
+       .grid-10::before{
+       		content: 'IPhone 10 Q45';
+       }
+       
+
+       .grid-11::before{
+       		content: 'Muestra Q45';
+       }
+
+       .grid-12::before{
+       		content: 'Samsung Galaxy S21 Ultra Q45';
+       }
+
+       .grid-13::before{
+       		content: 'Honor X8 Q45';
+       }
+       
+
+       
+
+		.div-grid:hover::before{
+        transform: scale(1);
+        transition: transform .56s;
+       } 
+
+		
+		
+
+		.img-grid{
+			margin-top: -20px;
+			width: 115px;
+			object-fit: contain;
+		}
+
+		.grid-text{
+				font-size: 25px; 
+				font-weight:1000; 
+				position: relative; 
+				margin: -15px;
+			}
+
+		.img-grid1{
+		width: 365px; position: relative; left: -27%; top: -15px; margin-bottom: 25px;
+	}
+
+	.img-grid2{
+		top: 30px;
+		left: 35px;
+		width: 117px;
+		margin-bottom: 60px;
+	}
+
+		.img-grid3{
+		width: 110px; position: relative; left: 22.5%; top: 30px; margin-bottom: 65px;
+	}
+		.img-grid4{
+		width: 415px; left: -30%; top: -33px; margin-bottom: -15px;
+	}
+
+	.img-grid5{
+		width:577px; left: -32.5%; top: -95px; margin-bottom: -110px;
+	}
+
+	.img-grid-6{
+		width:120px; left: 19%; top: 30px; margin-bottom: 50px;
+	}
+
+	.img-grid-7{
+		width:397px; left: -33.6%; top: -21px; margin-bottom: -200px;
+	}
+
+		
+
+	.img-grid-8{
+		width:400px; left: -21.6%; top: -17px; margin-bottom: -110px;
+	}
+
+	.img-grid-9{
+		width:407px; left: -27.6%; top: -28px; margin-bottom: -110px;
+	}
+
+	.img-grid-10{
+		width:387px; left: -26.6%; top: -34px; margin-bottom: -110px;
+	}
+
+	.img-grid-11{
+		width:400px; left: -31.6%; top: -35px; margin-bottom: -110px;
+	}
+
+	.img-grid-12{
+		width:425px; left: -35.6%; top: -35px; margin-bottom: -110px;
+	}
+
+	.img-grid-13{
+		width:107px; left: 15.6%; top: 25px; margin-bottom: -110px;
+	}
+
+
+		
+		.D-2{
+			margin: 20px;
+			max-width: 85%;
+			height: 1800px;
+			display: grid;
+			grid-template-areas: 
+			". text . "
+			"img1 img2 img3"
+			"img1 img2 img3"
+			"img1 img2 img3"
+			"img4 img5 img6"
+			"img4 img5 img6"
+			"img4 img5 img6"
+			"img7 img8 img9"
+			"img7 img8 img9"
+			"img7 img8 img9"
+			"img10 img11 img12"
+			"img10 img11 img12"
+			"img10 img11 img12"
+			"p img13 l"
+			;
+			grid-gap: 50px 1px;}
+
+
+			.grid-text-xiaomi{
+				left: 55px;
+			}
+		}
+
+
+		@media (min-width: 1029px){.hamburger-icon{
+		display: none;
+	}
+}
+
+		@media(max-width: 737px){.Samsung-name{font-size: 100px}}
+
+
+
+	
+	  @media  (max-width: 677px){
+
+	  	.div-grid{
+			background: #32e11c;
+			margin: auto;
+			height:190px; 
+			width: 145px;
+			border-radius: 9px;
+	        box-shadow: 0px 1px 3.55555px black;
+	        background: transparent;
+	        display: grid;
+	        overflow: hidden;
+		}
+
+		
+		.Samsung-name{
+		font-size: 110px;
+		margin-top: -100px;
+		margin-bottom: -50px;
+	}
+		
+
+	  	.D-2{
+			margin: auto;
+			max-width: 80%;
+			height: 1650px;
+			display: grid;
+			grid-template-areas: 
+			". text . "
+			" img1 img2 img3"
+			" img1 img2 img3"
+			" img1 img2 img3 "
+			" img4 img5 img6"
+			" img4 img5 img6"
+			" img4 img5 img6"
+			" img7 img8 img9"
+			" img7 img8 img9"
+			" img7 img8 img9"
+			" img10 img11 img12"
+			" img10 img11 img12"
+			" img10 img11 img12"
+			"img13 img13"
+			;
+			grid-gap: 15px;
+		}	 
+
+		.img-grid{
+			width: 150px;
+		} 
+
+
+
+
+		.img-grid3{
+		width: 80px; position: relative; left: 19.5%; top: 35px; margin-bottom: 65px;
+	}
+
+	.img-grid1{
+		width: 290px; left: -28%; top: -10px; margin-bottom: 50px;
+	}
+
+	.img-grid4{
+		width: 300px; left: -28%; top: -20px; margin-bottom: 2px;
+	}
+
+	.img-grid2{
+		width: 85px; left: 20%; top: 30px; margin-bottom: 45px;
+	}
+
+
+
+		.img-grid5{
+		width:435px; left: -33.5%; top: -65px; margin-bottom: 65px;
+	}
+
+	.img-grid-6{
+		width:85px; left: 15.5%; top: 25px; margin-bottom: 65px;
+	}
+
+	.img-grid-7{
+		width: 290px; left: -34%; top: -10px; margin-bottom: 50px;
+	}
+
+	.img-grid-8{
+		width: 300px; left: -24%; top: -10px; margin-bottom: 2px;
+	}
+
+	.img-grid-9{
+		width: 300px; left: -26.6%; top: -20px; margin-bottom: 45px;
+	}
+
+		.img-grid-10{
+		width:305px; left: -26%; top: -25px; margin-bottom: 65px;
+	}
+
+	.img-grid-11{
+		width: 290px; left: -28.5%; top: -10px; margin-bottom: 50px;
+	}
+
+	.img-grid-12{
+		width: 300px; left: -31.5%; top: -16px; margin-bottom: 2px;
+	}
+
+	.img-grid-13{
+		width: 85px; left: 20%; top: 30px; margin-bottom: 45px;
+	}
+
+
+
+
+		.grid-text{
+			position: relative; left: 1.1em;
+		}
+
+
+		.grid-text-xiaomi{
+		position: relative; left: 1.5em;
+	}
+
+	.grid-text-realme{
+			position: relative; left: 1.6em;
+		}
+
+	}
+
+	@media(max-width: 634px){.Samsung-name{font-size: 95px}}
+
+	@media (max-width: 543px){
+
+			.D-2{
+			margin: auto;
+			max-width: 80%;
+			height:1800px;
+			display: grid;
+			grid-template-areas: 
+			"text text "
+			" img1 img2"
+			" img1 img2"
+			" img1 img2"
+			" img3 img4"
+			" img3 img4"
+			" img3 img4"
+			" img5 img6"
+			" img5 img6"
+			" img5 img6"
+			" img7 img8"
+			" img7 img8"
+			" img7 img8"
+			" img9 img10"
+			" img9 img10"
+			" img9 img10"
+			"img11 img12"
+			"img11 img12"
+			"img11 img12"
+			"img13 img13"
+			;
+			grid-gap: 15px;
+		}
+
+		.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10{
+			background: #32e11c;
+			margin: auto;
+			height:190px; 
+			width: 135px;
+			border-radius: 9px;
+	        box-shadow: 0px 1px 3.55555px black;
+	        background: transparent;
+	        display: grid;
+	        overflow: hidden;
+		}
+ 
+
+	}		
+		@media (max-width: 550px){
+
+				h1{
+					font-size: 20px;
+				}
+
+				main{
+					margin-bottom: 90px;
+				}
+
+			}
+
+
+		@media (min-width: 550px){
+
+			h1{
+				font-size: 30px;
+			}
+
+			.mobile-button{
+				height: 45px;
+			}
+
+	}
+
+	@media(min-width: 660px){
+			h1{
+				font-size: 43px;
+			}
+
+			
+	}
+
+		@media (min-width: 660px){
+      		.img-mobile {
+     		height: 400px;
+	}
+}
+
+		main{
+			display: none;
+			
+		}
+
+
+	@media (max-width: 444px){.Samsung-name{font-size: 80px;}
+	}
+
+
+	@media (max-width: 375px){
+
+		   .Samsung-name{
+		   	font-size: 70px;
+		   	margin-top: -100px;
+		   	margin-bottom: 150px;
+		   }
+
+			.D-2{
+
+			margin: auto;
+			margin-top: -300px;
+			max-width: 80%;
+			height:1000px;
+			display: grid;
+			grid-template-areas: 
+			"text"
+			"text"
+			" img1"
+			" img1"
+			" img1"
+			" img2"
+			" img2"
+			" img2"
+			" img3"
+			" img3"
+			" img3"
+			" img10"
+			" img10"
+			" img10"
+			;}
+
+			.div-grid{
+			background: #32e11c;
+			margin: auto;
+			height:220px; 
+			width: 165px;
+			border-radius: 9px;
+	        box-shadow: 0px 1px 3.55555px black;
+	        background: transparent;
+	        display: grid;
+	        overflow: hidden;
+		}
+
+		.grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9{
+			display: none;
+		}
+
+		.img-grid{
+			width: 200px;
+			top: -10px;
+		}
+
+		.img-grid1{
+			width: 170px; position: relative; margin-bottom: 55px; top: 30px;
+		}
+
+		.img-grid3{
+		width: 200px; position: relative; left: -9.5%; top: 45px; margin-bottom: 65px;
+	}
+
+	.img-grid2{
+		width: 160px; left: 2%; top: 40px; margin-bottom: 65px;
+	}
+
+		.grid-text{
+			left: 1.4em;
+		}
+
+		#fundas{
+			font-size: 25px;
+			margin-bottom: 20px;
+		}
+	}
+
+
+	/*menu para telefonos*/
+
+	.a-menu-mobile{
+		font-size: 40px;
+		margin: auto;
+		margin-top: 90px;
+	}
+
+	.menu-telefono1{
+	    justify-content: center;
+    	align-items: center;
+   		width: 100%;
+   		height: 1800px;
+   	 	background: linear-gradient(to right, #2193b0db, #6dd5ede0);
+   		margin-top: -500px;
+}
+	}
+
+	.menu-telefono2{
+		display: grid; width:20%; margin:auto;
+
+	}
+
+	#menu-telefono{
+		animation:telefono 1s 1 ;
+		display: none;
+
+	}
+
+	@keyframes telefono{
+		from{
+			transform: translateX(-100%);
+		}
+
+		to{
+			transform: translateX(0%);
+		}
+	}
